@@ -1,0 +1,86 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+
+\newcommand{\tab}{\hspace*{2em}}
+
+\begin{document}
+\name{Benjamin K. Carriel}
+\address{212 Linden Ave, Apt. 3, Ithaca, NY 14853}
+\address{{\bf Phone:} (845) 664-5697 {\bf Email:} bkc39@cornell.edu}
+
+\begin{resume}
+  \section{EXPERIENCE}
+  {\bf Apple}, {\textit{Software Engineer Intern}} \\
+  I built an application that used machine learning and big data
+  techniques to improve the paging system in Mac OS X.
+  \vspace{-1em}
+
+  {\bf Goldman Sachs}, {\textit{Summer Analyst}} \\
+  I worked in Goldman Sachs Electronic Trading (GSET) and built an
+  application that would help process high-volume trades for clients.
+  \vspace{-1em}
+
+  {\bf Cornell Daily Sun}, {\textit{Lead iOS Developer}} \\
+  I started the team that builds the mobile-app for the Cornell Daily
+  Sun. I worked primarily on the iOS version of the app.
+  \vspace{-1em}
+
+  {\bf Cornell Dept. of Computer Science}, \textit{Teaching Assistant,
+    CS 3110} \\
+  I preach the good word of functional programming to 20-40 students
+  twice a week. Other responsibilities include office hours, making
+  problem sets, and exam problems. The course is {\it CS 3110 : Functional
+  Programming and Data Structures}
+  \vspace{-1em}
+
+  {\bf Cornell Math Support Center}, \textit{Tutor} \\
+  I tutor students at all levels of Math background. Subjects range
+  from pre-calculus to Analysis, Algebra, and Topology.
+
+  \section{EDUCATION}
+  {\bf Cornell University}, College of Arts and Sciences \hfill Ithaca, NY\\
+  {\bf BA Mathematics} \hfill expected May 2014 \\
+  {\bf BA Computer Science} \hfill expected May 2014 \\
+  \vspace{-2em}
+  \begin{center}
+    {\bf SELECTED COURSEWORK}
+    \begin{ncolumn}{2}
+      \tab \tab {\bf Mathematics}    & \tab \tab {\bf Computer Science} \\
+      Honors Analysis I-II           & Object-Oriented  Programming \\
+      Honors Algebra I-II            & Functional Programming \\
+      Topology                       & Systems Programming and Organization \\
+      Combinatorics                  & Operating Systems \\
+      Real Analysis*                 & Introduction to Algorithms \\
+      Complex Analysis*              & Compilers \\
+      Partial Differential Equations*& Design and Analysis of Algorithms* \\
+      Differentiable Manifolds*      & The Structure of Information Networks* \\
+      Algebraic Topology I-II*       & Advanced Programming Languages* \\
+    \end{ncolumn}
+  \end{center}
+  \vspace{-1em}
+  {\footnotesize{\textbf{Note:} A * indicates a course taken at the
+      graduate level.}}
+
+  \section{PROJECTS}
+  \begin{tabular}{p{1.5in}l}
+    {\bf ocaml-monadic} & A Haskell-style monad library in OCaml featuring \\
+    & implementations of commonly used monads \\
+    & and monad transformers. \\
+    {\bf ocaml-data-structures} & Implementations of common data
+    structures in OCaml. \\
+    {\bf tex-swag} & A collection of \LaTeX\ styles and macros for
+    typesetting \\
+    & Mathematics and Computer Science problem sets. \\
+    {\bf Project Euler} & A series of math-related programming
+    challenges. \\
+    & Currently over 100 problems solved.
+  \end{tabular}
+
+  \section{SKILLS}
+  {\bf Programming:} OCaml, Haskell, Scala, Python, Java, C, \LaTeX \\
+  {\bf Platforms:} UNIX, Git, Subversion, Spring,
+  Apache TomCat, Phabricator \\
+  {\bf General:} Guitar, Sailing, Soccer, YoYo \\
+\end{resume}
+\end{document}
